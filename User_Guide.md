@@ -66,9 +66,9 @@ uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 ``` bash
 Mở trình duyệt:
 
-API root: http://127.0.0.1:8001
-Swagger UI: http://127.0.0.1:8001/docs
-ReDoc: http://127.0.0.1:8001/redoc
+API root: http://127.0.0.1:8000
+Swagger UI: http://127.0.0.1:8000/docs
+ReDoc: http://127.0.0.1:8000/redoc
 ```
 ``` bash
 uvicorn app.main:app --reload --port 8001
