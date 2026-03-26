@@ -14,7 +14,7 @@ Microservice cho hệ thống tuyển dụng & nhân sự:
 - **Tích hợp Google Calendar**: Quản lý sự kiện lịch qua `calendar.js`
 - **Tích hợp Gmail**: Xử lý các thao tác email qua `gmail.js`
 - **Tích hợp LinkedIn**: Kết nối với các dịch vụ LinkedIn qua `linkedin.js`
-- **Máy chủ Express**: Máy chủ API RESTful chạy trên cổng 3000 (có thể cấu hình)
+- **Máy chủ Express**: Máy chủ API RESTful chạy trên cổng 8000 (có thể cấu hình)
 - **Hỗ trợ dịch vụ Windows**: Có thể cài đặt như một dịch vụ Windows bằng `node-windows`
 
 
@@ -68,7 +68,7 @@ app/
 
 Cấu hình ứng dụng bằng biến môi trường trong `.env.example`:
 
-- `PORT`: Cổng máy chủ (mặc định: 8001)
+- `PORT`: Cổng máy chủ (mặc định: 8000)
 - `GOOGLE_CLIENT_ID`: ID khách hàng Google API
 - `GOOGLE_CLIENT_SECRET`: Bí mật khách hàng Google API
 - `LINKEDIN_API_KEY`: Khóa API LinkedIn
